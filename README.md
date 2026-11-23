@@ -1,75 +1,55 @@
-<div align="center">UR-ROBOTish
-A UR-Inspired Robotic Arm for Vision-Guided Pick-and-Place
-Senior Design Project (2024–2025) · Northern Illinois University
+UR-ROBOTish: Six-Axis Robotic Arm
+Overview
+UR-ROBOTish is a six-axis robotic arm developed for a senior design project at Northern Illinois University (2024–2025). The project combines mechanical design, robotic control, and computer vision to perform color-based pick-and-place and object sorting. The arm was designed and assembled in SolidWorks, with Raspberry Pi–based PD position control used for joint positioning.
+Features
+- Six-axis articulated robotic arm designed in SolidWorks
+- Color-based object recognition and sorting
+- Pick-and-place manipulation using a robotic gripper
+- PD position control for joint movement
+- Raspberry Pi–based control system
+- Complete CAD assembly and part files included in the repository
+Hardware
+- Robot: Custom six-axis robotic arm
+- Mechanical design: SolidWorks assembly and components
+- Controller: Raspberry Pi
+- Actuation: Joint actuators and a gripper mechanism
+- Vision: Camera-based color recognition
+Software Stack
+- CAD: SolidWorks
+- Control: Proportional–Derivative (PD) position control
+- Computer vision: Color-based object detection
+- Main processing platform: Raspberry Pi
+Demo
+Click the image below to watch the robot demonstration on YouTube.
 
-SolidWorks · Raspberry Pi · Python · Computer Vision · PD Position Control
+Watch the full demonstration on YouTube
+Project Poster
+<!-- Export the poster PowerPoint to PNG and upload it as assets/poster-preview.png. -->
+[View the original project poster (PowerPoint)](CURE-Poster%2048X36.pptx)
+Mechanical Design (SolidWorks)
+The full robot-arm design, including assembly and component files, is stored in the UR ROBOTish folder.
 
-Watch the Demo · View the Poster · Explore the CAD Models · Project Highlights
-</div><!-- Export a SolidWorks assembly render or robot photograph to assets/robot-arm.png. -->
-Project Overview
-UR-ROBOTish is a senior-design robotic manipulator inspired by the form and operation of Universal Robots arms. The project combined mechanical design, actuator integration, robot control, and vision-guided manipulation to develop a system for color-based object sorting and pick-and-place tasks.
-
-The arm was designed in SolidWorks, with a Raspberry Pi–based PD position-control system used for joint positioning. The project explored color recognition and pose estimation to connect visual observations with robot actions.
-Recognition: Selected among the top five of 30 senior-design teams at Northern Illinois University's College of Engineering and Engineering Technology (CEET) senior-design showcase.
-
-🎬 Robot Demonstration
-A demonstration of the completed senior-design project is available on YouTube. Click the video thumbnail to watch it.
-
-▶ Watch the full robot demonstration on YouTube
-
-Note: GitHub README files display the YouTube thumbnail as a linked image; playback opens on YouTube.
-🖼 Project Poster
-The presentation poster provides an overview of the design concept, mechanical development, and project work.
-<!-- Export your PowerPoint poster as a PNG and upload assets/poster-preview.png. -->
-[!\[UR-ROBOTish senior-design project poster\]\(assets/poster-preview.png)](CURE-Poster%2048X36.pptx)
-
-[View or download the original PowerPoint poster](CURE-Poster%2048X36.pptx)
-⚙️ Mechanical Design
-The robot arm was modeled and assembled in SolidWorks, using a Universal Robots–inspired articulated-arm configuration. The CAD files allow visitors to inspect the design and understand its mechanical layout.
-
-[📁 Explore the SolidWorks assembly and part files](UR%20ROBOTish/)
-
-The UR ROBOTish/ directory contains the mechanical-design files. Open the main assembly in SolidWorks with its associated component files available in the same project directory; missing references may need to be resolved if individual parts have been moved.
-🧠 Control and Vision Approach
-The project combines multiple engineering areas:
-Subsystem	Project approach
-Mechanical design	UR-inspired robotic arm developed in SolidWorks
-Actuation	Servo-driven arm and end-effector/gripper mechanism
-Robot control	Raspberry Pi–based joint position control using a PD controller
-Perception	Color-based object detection for RGB sorting tasks
-Manipulation	Robot positioning, gripping, and placement of objects into corresponding sorting locations
-
-
-Intended manipulation workflow
-Observe colored object
-         ↓
-Determine object color and target location
-         ↓
-Estimate a suitable robot pick position
-         ↓
-Command arm movement and gripper
-         ↓
-Pick up object → Move to sorting location → Release
-This summarizes the system's task-level workflow rather than claiming a specific detection rate, positioning accuracy, or cycle time.
-🏆 Project Highlights
-- Designed a UR-inspired robotic manipulator from the ground up using SolidWorks.
-- Integrated mechanical design, electronics, control, and vision-guided manipulation within a single senior-design project.
-- Developed the system around color-based pick-and-place and sorting.
-- Received top-five recognition among 30 CEET senior-design teams.
-📂 Repository Contents
-File / Directory	Description
-[`UR ROBOTish/`](UR%20ROBOTish/)	SolidWorks assembly and part/design files
-[`CURE-Poster 48X36.pptx`](CURE-Poster%2048X36.pptx)	Original project poster
-YouTube demonstration	Watch the robot arm in action
-[`Senior Design Demo Video.mov`](Senior%20Design%20Demo%20Video.mov)	Original MOV file stored in this repository
-assets/robot-arm.png	SolidWorks assembly render or a photograph of the robot (add to assets/)
-assets/poster-preview.png	PNG preview of the project poster (add to assets/)
-
-
-👤 Project Information
-Institution: Northern Illinois University
-Program: Mechanical Engineering — Senior Design
-Academic year: 2024–2025
+[View the SolidWorks CAD files](UR%20ROBOTish/)
+<!-- Optional: Upload a SolidWorks assembly screenshot as assets/robot-arm.png, then uncomment:
+![SolidWorks assembly of UR-ROBOTish](assets/robot-arm.png)
+-->
+To explore the design:
+1. Open the [`UR ROBOTish`](UR%20ROBOTish/) directory.
+2. Download the assembly and corresponding component files.
+3. Open the main assembly file in SolidWorks, keeping the referenced parts accessible.
+System Workflow
+1. Detect an object and identify its color.
+2. Select the corresponding sorting destination.
+3. Move the robotic arm toward the pick location.
+4. Grasp the object and transfer it to the target location.
+5. Release the object to complete the sorting task.
+Repository Contents
+- [`UR ROBOTish/`](UR%20ROBOTish/) — SolidWorks assembly and mechanical design files
+- [`CURE-Poster 48X36.pptx`](CURE-Poster%2048X36.pptx) — Senior design project poster
+- [`Senior Design Demo Video.mov`](Senior%20Design%20Demo%20Video.mov) — Original demo video file
+- [`README.md`](README.md) — Project overview and documentation
+Project Recognition
+Selected among the top five of 30 senior design teams at Northern Illinois University's College of Engineering and Engineering Technology (CEET) senior design showcase.
 Project: UR-ROBOTish
-<div align="center">Mechanical design · Robotic control · Computer vision · Mechatronics
-</div>
+Institution: Northern Illinois University
+Academic Year: 2024–2025
