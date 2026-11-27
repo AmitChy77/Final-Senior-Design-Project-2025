@@ -47,6 +47,7 @@ Repository Contents
 - [`UR ROBOTish/`](UR%20ROBOTish/) — SolidWorks assembly and mechanical design files
 - [`CURE-Poster 48X36.pptx`](CURE-Poster%2048X36.pptx) — Senior design project poster
 - [`Senior Design Demo Video.mov`](Senior%20Design%20Demo%20Video.mov) — [Original demo video file](https://www.youtube.com/watch?v=0eG_HPvna9Y)
+  
 Project Recognition
 Selected among the top five of 30 senior design teams at Northern Illinois University's College of Engineering and Engineering Technology (CEET) senior design showcase.
 Project: UR-ROBOTish
